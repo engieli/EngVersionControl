@@ -7,6 +7,7 @@ void setup(){
 
 void draw(){
   background(0);
+  
   for (int i = 0; i < particles.size(); i++){
     particles.get(i).update();
     particles.get(i).display();
